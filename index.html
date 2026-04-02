@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porteira Picanharia - Dom Pedro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo3.png" alt="Logo Porteira Picanharia" class="logo-img">
+                <span>Porteira Picanharia</span>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#cardapio" class="nav-link">Cardápio</a>
+                <a href="#galeria" class="nav-link">Galeria</a>
+                <a href="#reserva" class="nav-link">Reserva</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo à Porteira Picanharia</h1>
+            <p>Unidade Dom Pedro</p>
+            <p class="slogan">Experiência autêntica de churrasco de qualidade</p>
+            <a href="#reserva" class="btn btn-primary">Fazer Reserva</a>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre a Porteira Picanharia</h2>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p>A Porteira Picanharia é referência em churrascaria de alta qualidade. Com sete anos de experiência no mercado, oferecemos produtos premium selecionados à mão para garantir o melhor sabor em cada refeição.</p>
+                    <p>Nossa unidade Dom Pedro combina a tradição do bom churrasco com um ambiente acolhedor e atendimento excepcional. Aqui, cada cliente é um amigo em nossa mesa.</p>
+                    <div class="destaque">
+                        <div class="destaque-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Carnes Premium Selecionadas</span>
+                        </div>
+                        <div class="destaque-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Atendimento em Roda</span>
+                        </div>
+                        <div class="destaque-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Ambiente Climatizado</span>
+                        </div>
+                        <div class="destaque-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Eventos e Confraternizações</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-image">
+                    <img src="images/SALAOPRINCIPAL.jpeg" alt="Salão Principal Porteira Picanharia" class="restaurant-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cardapio" class="cardapio">
+        <div class="container">
+            <h2>Nosso Cardápio</h2>
+            <div class="cardapio-grid">
+                <div class="cardapio-card accordion-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-drumstick-bite"></i>
+                        </div>
+                        <h3>Cortes Nobres</h3>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <ul class="cardapio-lista accordion-content">
+                        <li>Picanha</li>
+                        <li>Maminha</li>
+                        <li>Costela</li>
+                    </ul>
+                </div>
+
+                <div class="cardapio-card accordion-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <h3>Parrilha</h3>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <ul class="cardapio-lista accordion-content">
+                        <li>Picanha Angus</li>
+                        <li>Picanha Black Angus</li>
+                        <li>Filé de Peito com Mostarda e Mel</li>
+                        <li>Filé de Sobrecoxa</li>
+                        <li>Prime Rib</li>
+                        <li>Chorizo</li>
+                        <li>Ancho Steak</li>
+                        <li>Filé Mignon</li>
+                    </ul>
+                </div>
+
+                <div class="cardapio-card accordion-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Acompanhamentos</h3>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <ul class="cardapio-lista accordion-content">
+                        <li>Arroz Branco</li>
+                        <li>Arroz com Brócolis</li>
+                        <li>Arroz Porteira</li>
+                        <li>Vinagrete</li>
+                        <li>Farofa</li>
+                        <li>Farofa de Ovo</li>
+                        <li>Batatonese</li>
+                        <li>Feijão</li>
+                        <li>Feijão Tropeiro</li>
+                    </ul>
+                </div>
+
+                <div class="cardapio-card accordion-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-whiskey-glass"></i>
+                        </div>
+                        <h3>Bebidas</h3>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <ul class="cardapio-lista accordion-content">
+                        <li>Whiskys Variados</li>
+                        <li>Vodkas Selecionadas</li>
+                        <li>Gin Premium</li>
+                        <li>Licores</li>
+                        <li>Destilados</li>
+                        <li>Caipiroscas</li>
+                    </ul>
+                </div>
+
+                <div class="cardapio-card accordion-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-wine-glass"></i>
+                        </div>
+                        <h3>Carta de Vinhos</h3>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <ul class="cardapio-lista accordion-content">
+                        <li>Vinhos Tintos</li>
+                        <li>Vinhos Brancos</li>
+                        <li>Espumantes</li>
+                        <li>Frisantes</li>
+                    </ul>
+                </div>
+
+                <div class="cardapio-card accordion-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-ice-cream"></i>
+                        </div>
+                        <h3>Sobremesas</h3>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <ul class="cardapio-lista accordion-content">
+                        <li>Super Brownie de Chocolate</li>
+                        <li>Brownie Porteira com Sorvete</li>
+                        <li>Banoffe Pie</li>
+                        <li>Bolo de Chocolate com Brigadeiro</li>
+                        <li>Pudim com Doce de Leite</li>
+                        <li>Sorvete de Creme</li>
+                        <li>Torta de Limão Siciliano</li>
+                    </ul>
+                </div>
+
+                <div class="cardapio-card accordion-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Entradas</h3>
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </div>
+                    <ul class="cardapio-lista accordion-content">
+                        <li>Mix de Entradas</li>
+                        <li>Bananinha Black Angus</li>
+                        <li>Croquetas de Costela</li>
+                        <li>Dupla na Brasa</li>
+                        <li>Batatas Fritas</li>
+                        <li>Polenta com Parmesão</li>
+                        <li>Pão de Alho Porteira</li>
+                        <li>Queijo Coalho Braseado</li>
+                        <li>Linguiça de Pernil Picante</li>
+                        <li>Toscana</li>
+                        <li>Com Queijo Coalho</li>
+                        <li>Coração de Frango</li>
+                        <li>Língua de Chapa</li>
+                        <li>Torresmo Pururuca</li>
+                        <li>Pastéis de Costela Cremosa</li>
+                        <li>Pastéis de Queijo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2>Galeria</h2>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="images/ENTRADAGARAGEM.jpeg" alt="Entrada Garagem" class="galeria-img">
+                    <p>Entrada Garagem</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="images/ENTRADASALAOPRINCIPAL.jpeg" alt="Entrada Salão Principal" class="galeria-img">
+                    <p>Salão Principal</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="images/PAREDEDECARVAO.jpeg" alt="Parede de Carvão" class="galeria-img">
+                    <p>Ambientação</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="images/PICANHA.jpeg" alt="Picanha Premium" class="galeria-img">
+                    <p>Picanha Premium</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="images/CHORIZO.jpeg" alt="Chorizo" class="galeria-img">
+                    <p>Chorizo</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="images/AREAVIP.jpeg" alt="Área VIP" class="galeria-img">
+                    <p>Área VIP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reserva" class="reserva">
+        <div class="container">
+            <h2>Faça Sua Reserva</h2>
+            <form class="form-reserva" id="formReserva">
+                <div class="form-section">
+                    <div class="form-section-header">
+                        <h4>Dados Pessoais</h4>
+                        <i class="fas fa-chevron-down form-section-icon"></i>
+                    </div>
+                    <div class="form-section-content">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <div class="form-section-header">
+                        <h4>Detalhes da Reserva</h4>
+                        <i class="fas fa-chevron-down form-section-icon"></i>
+                    </div>
+                    <div class="form-section-content">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="data">Data</label>
+                                <input type="date" id="data" name="data" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="hora">Hora</label>
+                                <input type="time" id="hora" name="hora" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="pessoas">Pessoas</label>
+                                <input type="number" id="pessoas" name="pessoas" min="1" max="50" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="criancas">Crianças</label>
+                                <input type="number" id="criancas" name="criancas" min="0" max="20">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <div class="form-section-header">
+                        <h4>Mensagem (Opcional)</h4>
+                        <i class="fas fa-chevron-down form-section-icon"></i>
+                    </div>
+                    <div class="form-section-content">
+                        <div class="form-group">
+                            <textarea id="mensagem" name="mensagem" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Confirmar Reserva</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contato-grid">
+                <div class="contato-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Localização</h3>
+                    <p>Rua Dom Pedro, 7164</p>
+                    <p>Manaus - AM</p>
+                </div>
+
+                <div class="contato-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Telefone</h3>
+                    <p>(11) 9999-9999</p>
+                    <p>Segunda a Domingo</p>
+                </div>
+
+                <div class="contato-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Horário de Funcionamento</h3>
+                    <p>Seg-Sex: 11h às 22h</p>
+                    <p>Sab-Dom: 11h às 23h</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Porteira Picanharia - Unidade Dom Pedro. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
