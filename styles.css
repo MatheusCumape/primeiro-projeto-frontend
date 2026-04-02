@@ -64,8 +64,12 @@ body {
 }
 
 .nav {
-    display: flex;
+    display: none;
     gap: 2rem;
+}
+
+.nav.ativo {
+    display: flex;
 }
 
 .nav-link {
