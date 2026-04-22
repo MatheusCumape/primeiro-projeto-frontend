@@ -11,3 +11,5 @@ Tecnologias
 - Estilização
 - Interatividade
 - Responsividade/Mobile First
+
+Atualização, agora irei iniciar a integração do framkword Bootstrap e Angula para verificar e aplicar melhorias no trabalho e futuramente a implementação de APIs e sistema de login + CRUD
